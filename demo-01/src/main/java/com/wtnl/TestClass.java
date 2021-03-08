@@ -11,7 +11,7 @@ public class TestClass {
     public void goodLuck() {
         System.out.println("wish us good luck!");
         System.out.println("friendship first,competition second!:)");
-        //merge Test
+        //merge request test2
         
         
     }
