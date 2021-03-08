@@ -8,7 +8,7 @@ package com.wtnl;
  * @Version 1.0
  **/
 public class TestClass {
-    public static void main(String[] args) {
-        System.out.println("wish us good luck");
+    public void goodLuck() {
+        System.out.println("wish us good luck!");
     }
 }
