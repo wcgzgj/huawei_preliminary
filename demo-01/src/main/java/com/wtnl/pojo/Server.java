@@ -13,6 +13,7 @@ public class Server {
     private int ram; //内存大小
     private int price; //硬件成本
     private int consume; //能耗
+    private int test;
 
     public Server() {
     }
