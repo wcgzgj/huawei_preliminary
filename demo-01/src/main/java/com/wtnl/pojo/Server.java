@@ -12,7 +12,7 @@ public class Server {
     private int core; //CPU核数目
     private int ram; //内存大小
     private int price; //硬件成本
-    private int consume;  //能耗
+    private int consume; //能耗
 
     public Server() {
     }

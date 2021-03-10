@@ -11,7 +11,7 @@ public class VM {
     private String type; //型号
     private int core; //CUP核数
     private int ram; //内存大小
-    private boolean isDoubleNode;  //是否双节点部署
+    private boolean isDoubleNode; //是否双节点部署
 
     public VM() {
     }
