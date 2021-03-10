@@ -11,9 +11,5 @@ import org.junit.jupiter.api.Test;
  * @Version 1.0
  **/
 public class TestClassTest {
-    @Test
-    public void goodLuckTest() {
-        TestClass testClass = new TestClass();
-        testClass.goodLuck();
-    }
+
 }
