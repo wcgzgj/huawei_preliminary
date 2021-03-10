@@ -11,16 +11,16 @@ public class VM {
     private String type; //型号
     private int core; //CUP核数
     private int ram; //内存大小
-    private boolean isDoubleNode; //是否双节点部署
+    private int doubleNode; //是否双节点部署
 
     public VM() {
     }
 
-    public VM(String type, int core, int ram, boolean isDoubleNode) {
+    public VM(String type, int core, int ram, int doubleNode) {
         this.type = type;
         this.core = core;
         this.ram = ram;
-        this.isDoubleNode = isDoubleNode;
+        this.doubleNode = doubleNode;
     }
 
     public String getType() {
@@ -48,11 +48,11 @@ public class VM {
     }
 
     public boolean isDoubleNode() {
-        return isDoubleNode;
+        return this.doubleNode==1;
     }
 
-    public void setDoubleNode(boolean doubleNode) {
-        isDoubleNode = doubleNode;
+    public void setDoubleNode(int doubleNode) {
+        this.doubleNode = doubleNode;
     }
 
     @Override
@@ -61,7 +61,7 @@ public class VM {
                 "type='" + type + '\'' +
                 ", core=" + core +
                 ", ram=" + ram +
-                ", isDoubleNode=" + isDoubleNode +
+                ", doubleNode=" + doubleNode +
                 '}';
     }
 }
